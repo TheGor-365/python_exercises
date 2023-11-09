@@ -15,3 +15,6 @@ def fizz_buzz(begin, end):
             result.append(str(i))
     final = ' '.join(result)
     return final
+
+
+print(fizz_buzz(1, 100))
